@@ -1,0 +1,177 @@
+@charset "utf-8";
+html {
+  background-image: url("./background.jpg");
+  
+}
+body {
+  padding: 3%;
+}
+
+/* nav */
+
+a, label {
+  font-family: mongoose, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 14px 16px;
+}
+
+/* Centre the nav bar */
+.nav-bar{
+  position: fixed;
+  margin-top: -40px;
+  width: 97%;
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  background-blend-mode: lighten;
+}
+
+/* Links inside the navbar */
+.nav-bar .dropbtn {
+  overflow: hidden;
+  font-family: mongoose, sans-serif;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  border: none;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0px; /* Important for vertical align on mobile phones */
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.g_logo {
+  width: 70px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* intro/welcome */
+.box {
+  border: solid #867b5d;
+  border-width: 1.5px;
+  background-color: #252525;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10px;
+  margin-top: 75px;
+}
+h1,
+h2 {
+  font-family: input-mono, monospace;
+  padding-left: 20px;
+  padding-right: 15px;
+  color: white;
+}
+h1 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 100;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+.box-content {
+  border: solid #867b5d;
+  border-width: 1.5px;
+}
+h2 {
+  font-size: 15px;
+  font-weight: 100;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+
+/* social media */
+.social_ul {
+  display: inline-block;
+}
+
+#social_li1 {
+  display: inline-block;
+}
+
+#social_li2 {
+  display: inline-block;
+}
+
+#social_li3 {
+  display: inline-block;
+}
+
+#social_li4 {
+  display: inline-block;
+}
+
+#social_li5 {
+  display: inline-block;
+}
+
+.social_ul {
+  text-align: center;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 4px;
+}
+.social_logo {
+  width: 35px;
+  margin-left: 30px;
+  margin: 1.5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.social_logo:hover {
+  margin: 0px;
+  border: solid white 1.5px;
+}
+
+/* Form */
+
+label {
+    font-size: 25px;
+}

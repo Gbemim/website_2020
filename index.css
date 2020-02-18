@@ -18,17 +18,6 @@ a {
   padding: 14px 16px;
 }
 
-/* Centre the nav bar */
-.nav-bar {
-  position: fixed;
-  text-align: center;
-  left: 2px;
-  right: 40px;
-  margin-top: -30px;
-  background-color: black;
-  width: 100%;
-}
-
 /* Links inside the navbar */
 .nav-bar .dropbtn {
   overflow: hidden;
@@ -114,11 +103,120 @@ a {
     padding-bottom: 10px;
   }
 
-  /* social media */
-  .social_ul {
-    display: inline-block;
-  }
+  @media (min-width: 1001px) {
 
+    /* Centre the nav bar */
+    .nav-bar {
+        position: fixed;
+        text-align: center;
+        background-color: black;
+        width: 100%;
+    }
+
+    /* content */
+    .box {
+        border: solid #867b5d;
+        border-width: 1.5px;
+        background-color: #252525;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 10px;
+        margin-top: 90px;
+    }
+
+    .box-content {
+        border: solid #867b5d;
+        border-width: 1.5px;
+    }
+
+    .social_ul {
+        text-align: center;
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+/* Width between 1000px and 723px */
+@media (max-width: 1000px) and (min-width: 723px) {
+
+    /* Centre the nav bar */
+    .nav-bar {
+        position: fixed;
+        text-align: center;
+        left: 2px;
+        right: 40px;
+        margin-top: -30px;
+        background-color: black;
+        width: 100%;
+    }
+
+    /* content */
+    .box {
+        border: solid #867b5d;
+        border-width: 1.5px;
+        background-color: #252525;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+        margin-top: 130px;
+    }
+
+    .box-content {
+        border: solid #867b5d;
+        border-width: 1.5px;
+    }
+
+    .social_ul {
+        text-align: center;
+        width: 70%;
+        margin-top: 20px;
+    }
+}
+
+
+/* Width from 724px or less */
+@media (max-width: 724px) {
+
+    /* Centre the nav bar */
+    .nav-bar {
+        position: fixed;
+        text-align: center;
+        left: 2px;
+        right: 40px;
+        margin-top: -30px;
+        background-color: black;
+        width: 100%;
+    }
+
+    /* content */
+    .box {
+        border: solid #867b5d;
+        border-width: 1.5px;
+        background-color: #252525;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-left: -19.5px;
+        padding: 10px;
+        margin-top: 130px;
+
+    }
+
+    .box>div {
+        border: solid #867b5d;
+        border-width: 1.5px;
+
+    }
+
+    .social_ul {
+        width: 75%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+  /* social media */
   #social_li1 {
     display: inline-block;
   }

@@ -470,10 +470,11 @@ body {
   .nav-bar {
     position: fixed;
     text-align: center;
-    left: 40px;
+    left: 2px;
     right: 40px;
     margin-top: -30px;
     background-color: black;
+    width: 100%;
   }
 
   /* Links inside the navbar */
@@ -546,11 +547,10 @@ body {
     background-color: #252525;
     margin-left: 5%;
     margin-right: 5%;
-    margin-right: 6px;
+    margin-left:-19.5px;
     padding: 10px;
     margin-top: 130px;
-    display: flex;
-    flex-wrap: wrap;
+    
   }
 
   h1,
@@ -603,6 +603,7 @@ body {
   .social_ul {
     width: 100%;
     margin-top: 20px;
+    text-align: center;
   }
   .social_logo {
     width: 35px;

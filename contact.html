@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./index.css">
     <script src="./contact.js"></script>
     <!-- <script src="./contact.php"></script> -->
     <link rel="stylesheet" href="https://use.typekit.net/jut4etp.css">
@@ -12,6 +12,227 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Gbemi</title>
+
+    <style>
+        form {
+            padding: 20px;
+        }
+
+        label {
+            font-family: input-mono, monospace;
+            font-size: 15px;
+            font-weight: 50;
+            font-style: normal;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        input,
+        textarea {
+            padding: 7px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-style: solid;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        @media (min-width: 1001px) {
+
+            /* content */
+            .box {
+                border: solid #867b5d;
+                border-width: 1.5px;
+                background-color: #252525;
+                margin-left: 20%;
+                margin-right: 20%;
+                padding: 10px;
+                margin-top: 75px;
+            }
+
+            .box-content {
+                border: solid #867b5d;
+                border-width: 1.5px;
+            }
+
+            .social_ul {
+                text-align: center;
+                width: 90%;
+                margin-top: 20px;
+            }
+
+            /* Form */
+            textarea {
+                margin-left: 55px;
+                width: 300px;
+                height: 100px;
+            }
+
+            input[name="name2"] {
+                margin-left: 64px;
+                width: 400px;
+            }
+
+            input[name="name"] {
+                width: 400px;
+                margin-left: 7px;
+            }
+
+            input[name="email"] {
+                width: 400px;
+            }
+
+            input[type="button"] {
+                font-family: input-mono, monospace;
+                font-size: 15px;
+                width: 80px;
+                margin-left: 330px;
+                border-radius: 0;
+                background: none;
+                color: white;
+                border-color: #867b5d;
+            }
+        }
+
+
+        /* Width between 1000px and 723px */
+        @media (max-width: 1000px) and (min-width: 723px) {
+
+            /* content */
+            .box {
+                border: solid #867b5d;
+                border-width: 1.5px;
+                background-color: #252525;
+                margin-left: 5%;
+                margin-right: 5%;
+                padding: 10px;
+                margin-top: 130px;
+            }
+
+            .box-content {
+                border: solid #867b5d;
+                border-width: 1.5px;
+            }
+
+            .social_ul {
+                text-align: center;
+                width: 70%;
+                margin-top: 20px;
+            }
+
+            /* Form */
+            textarea {
+                margin-left: 60px;
+                width: 300px;
+                height: 100px;
+            }
+
+            input[name="name2"] {
+                margin-left: 50px;
+                width: 179px;
+            }
+
+            input[name="name"] {
+                margin-left: 12px;
+                width: 179px;
+            }
+
+            input[name="email"] {
+                margin-left: 2px;
+                width: 300px;
+            }
+
+            input[type="button"] {
+                font-family: input-mono, monospace;
+                font-size: 15px;
+                width: 80px;
+                margin-left: 330px;
+                border-radius: 0;
+                background: none;
+                color: white;
+                border-color: #867b5d;
+            }
+        }
+
+
+        /* Width from 724px or less */
+        @media (max-width: 724px) {
+
+            /* content */
+            .box {
+                border: solid #867b5d;
+                border-width: 1.5px;
+                background-color: #252525;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-left: -19.5px;
+                padding: 10px;
+                margin-top: 130px;
+
+            }
+
+            .box>div {
+                border: solid #867b5d;
+                border-width: 1.5px;
+
+            }
+
+            .social_ul {
+                width: 75%;
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .social_logo {
+                width: 35px;
+                margin-left: 30px;
+                margin: 1.5px;
+                padding: 20px;
+                cursor: pointer;
+            }
+
+            .social_logo:hover {
+                margin: 0px;
+                border: solid white 1.5px;
+            }
+
+            /* Form */
+            textarea,
+            input {
+                width: 250px;
+            }
+
+            input[name="name"] {
+                margin-left: 10px;
+            }
+
+            input[name="name2"] {
+                margin-left: 68px;
+            }
+
+            textarea {
+                margin-left: 68px;
+            }
+
+            input[type="button"] {
+                font-family: input-mono, monospace;
+                font-size: 15px;
+                width: 80px;
+                margin-left: 270px;
+                border-radius: 0;
+                background: none;
+                color: white;
+                border-color: #867b5d;
+            }
+
+            input:hover {
+                background-color: #c2b27d;
+                border-color: #c2b27d;
+                border-color: #c2b27d;
+                color: black;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -34,23 +255,23 @@
     <div class="box">
         <h1> <b> CONTACT ME </b> </h1>
         <div class="box-content">
-           <form>
-               <label for="name">Name: </label> 
-               <input name="name" type="text" placeholder="First"> <input name="name2" type="text" placeholder="Last">
-               <br><br>
-               <label for="email">Email: </label> 
-               <input name="email" type="email" placeholder="example@abc.com"> 
-               <br><br>
-               <label for="message">Message: </label> 
-               <br>
-               <textarea rows="4" cols="50"> </textarea>
-               <br><br>
-               <input type="button" value="SEND">
-           </form>
+            <form>
+                <label for="name">Name: </label>
+                <input name="name" type="text" placeholder="First"> <input name="name2" type="text" placeholder="Last">
+                <br><br>
+                <label for="email">Email: </label>
+                <input name="email" type="email" placeholder="example@abc.com">
+                <br><br>
+                <label for="message">Message: </label>
+                <br>
+                <textarea rows="4" cols="50"> </textarea>
+                <br><br>
+                <input type="button" value="SEND">
+            </form>
         </div>
     </div>
 
-    <!-- Social media --> 
+    <!-- Social media -->
     <ul class="social_ul">
         <li id="social_li1"> <img class="social_logo" onclick="myFacebook()" src="Pictures/Logos/facebook_white2.png"
                 alt="Facebook Logo"> </li>
